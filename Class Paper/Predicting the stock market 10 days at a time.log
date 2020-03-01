@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  1 MAR 2020 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  1 MAR 2020 14:25
 entering extended mode
 **"./Predicting the stock market 10 days at a time.tex"
 ("Predicting the stock market 10 days at a time.tex"
@@ -525,7 +525,7 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-10.
+12.
 ("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{C:/Users/tomti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -535,16 +535,16 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 <fig1.png, id=12, 82.1469pt x 71.5473pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 215.
+Package pdftex.def Info: fig1.png  used on input line 217.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-26.
+28.
 
 ("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
 [2]
 
 ** Conference Paper **
@@ -561,7 +561,7 @@ Before submitting the final camera ready copy, remember to:
 ") ) 
 Here is how much of TeX's memory you used:
  4820 strings out of 492450
- 70231 string characters out of 3120004
+ 70321 string characters out of 3120004
  145115 words of memory out of 3000000
  9095 multiletter control sequences out of 15000+200000
  54745 words of font info for 115 fonts, out of 3000000 for 9000
@@ -582,7 +582,7 @@ tmbi8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/times/utmri8a.pfb>
 Output written on "Predicting the stock market 10 days at a time.pdf" (3 pages,
- 134707 bytes).
+ 135030 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
