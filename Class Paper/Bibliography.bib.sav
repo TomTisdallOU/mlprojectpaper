@@ -1,0 +1,77 @@
+% Encoding: UTF-8
+
+@Article{QuarterlyPrediction,
+  author  = {Qian, Chen and Zheng, Wenjie and An, Ran},
+  journal = {WebSite(Stanford)},
+  title   = {Stock Market Trends Prediction after Earning Release},
+  year    = {2016},
+}
+
+@Article{DailyReturnDirection,
+  author  = {Zhong, Xiao and Enke, David},
+  journal = {Financ Innov 5, 24},
+  title   = {Predicting the daily return direction of the stock market using hybrid machine learning algorithms.},
+  year    = {2019},
+  comment = {https://doi.org/10.1186/s40854-019-0138-0},
+}
+
+@Article{Onedayahead,
+  author  = {Weng, Bin and Ahmed, Mohammed and Megahed, Fadel},
+  journal = {ResearchGate},
+  title   = {Stock Market One-Day Ahead Movement Prediction Using Disparate Data Sources},
+  year    = {2017},
+  comment = {https://www.researchgate.net/publication/314132532_Stock_Market_One-Day_Ahead_Movement_Prediction_Using_Disparate_Data_Sources},
+}
+
+@Article{AutomatedPrediction,
+  author  = {Moukalled, Mariam and El-Hajj, Wassim and Jaber, Mohammad},
+  journal = {WebSite},
+  title   = {Automated Stock Price Prediction using Machine Learning},
+  year    = {2019},
+  comment = {chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://www.aclweb.org/anthology/W19-6403.pdf},
+}
+
+@Article{TaxonomyofPrediction,
+  author  = {Shah, Isah and Zulkernine},
+  journal = {International Journal of Financial Studies 7.2},
+  title   = {Stock Market Analysis: A Review and Taxonomy of Prediction Techniques},
+  year    = {2019},
+}
+
+@Article{MLModelPrediction,
+  author  = {Hegazy, Osman and Omar S., Soliman and Abdul Salam, Mustafa},
+  journal = {International Journal of Computer Science and Telecommunications 4.17-23},
+  title   = {A Machine Learning Model for Stock Market Prediction},
+  year    = {2013},
+}
+
+@Article{EmpiricalStudy,
+  author  = {DongDong, Lv and Yuan, Shuhan and Li, Meizi and Xiang, Yang},
+  journal = {Mathematical Problems in Engineering 2019(7):1-30},
+  title   = {An Empirical Study of Machine Learning Algorithms for Stock Daily Trading Strategy},
+  year    = {2019},
+}
+
+@Article{LongTermPricePrediction,
+  author  = {Stoean, Catalin and Paja, Wieslaw and Stoean, Ruxandra and Sandita, Adrian},
+  journal = {PlosOne},
+  title   = {Deep architectures for long-term stock price prediction with a heuristic-based strategy for trading simulations},
+  year    = {2019},
+}
+
+@Article{WebBecomeMillionaire,
+  author  = {Xu, Jere},
+  journal = {Website},
+  title   = {How to use Machine Learning to become a millionaire predicting the stock market},
+  year    = {2019},
+  comment = {https://towardsdatascience.com/how-to-use-machine-learning-to-possibly-become-a-millionaire-predicting-the-stock-market-33861916e9c5},
+}
+
+@Article{20MinStockPredict,
+  author  = {Edell, Aaron},
+  journal = {Website},
+  title   = {I spent 20 minutes trying to predict the stock market with AI, these are my results},
+  year    = {2018},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

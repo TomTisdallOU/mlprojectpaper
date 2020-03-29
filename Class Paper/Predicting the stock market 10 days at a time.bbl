@@ -25,4 +25,14 @@
 C.~Qian, W.~Zheng, and R.~An, ``Stock market trends prediction after earning
   release,'' \emph{WebSite(Stanford)}, 2016.
 
+\bibitem{DailyReturnDirection}
+X.~Zhong and D.~Enke, ``Predicting the daily return direction of the stock
+  market using hybrid machine learning algorithms.'' \emph{Financ Innov 5, 24},
+  2019.
+
+\bibitem{EmpiricalStudy}
+L.~DongDong, S.~Yuan, M.~Li, and Y.~Xiang, ``An empirical study of machine
+  learning algorithms for stock daily trading strategy,'' \emph{Mathematical
+  Problems in Engineering 2019(7):1-30}, 2019.
+
 \end{thebibliography}
