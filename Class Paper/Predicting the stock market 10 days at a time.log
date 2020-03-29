@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  29 MAR 2020 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  29 MAR 2020 15:13
 entering extended mode
 **"./Predicting the stock market 10 days at a time.tex"
 ("Predicting the stock market 10 days at a time.tex"
@@ -524,17 +524,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
+("Predicting the stock market 10 days at a time.bbl") [1{C:/Users/tomti/AppData
+/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-LaTeX Warning: Citation `DailyReturnDirection' on page 1 undefined on input lin
-e 49.
 
-
-LaTeX Warning: Citation `EmpiricalStudy' on page 1 undefined on input line 50.
-
-("Predicting the stock market 10 days at a time.bbl"
-Underfull \vbox (badness 4328) has occurred while \output is active []
-
-)
+]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -546,36 +540,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/tomti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[2
 
-
-]
-("Predicting the stock market 10 days at a time.aux")
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] ("Predicting the stock market 10 days at a time.aux") ) 
 Here is how much of TeX's memory you used:
- 4738 strings out of 492450
- 69604 string characters out of 3120004
- 140047 words of memory out of 3000000
- 9028 multiletter control sequences out of 15000+200000
- 45000 words of font info for 95 fonts, out of 3000000 for 9000
+ 4749 strings out of 492450
+ 69799 string characters out of 3120004
+ 143075 words of memory out of 3000000
+ 9040 multiletter control sequences out of 15000+200000
+ 44947 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,37p,1299b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
-.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
-mbi8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmr8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on "Predicting the stock market 10 days at a time.pdf" (1 page, 
-60241 bytes).
+{C:/Users/tomti/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/tomti/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/t
+omti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Use
+rs/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C
+:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
+b><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on "Predicting the stock market 10 days at a time.pdf" (2 pages,
+ 70896 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
