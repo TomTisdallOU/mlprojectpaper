@@ -1,9 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  1 MAR 2020 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  29 MAR 2020 14:18
 entering extended mode
 **"./Predicting the stock market 10 days at a time.tex"
 ("Predicting the stock market 10 days at a time.tex"
 LaTeX2e <2019-10-01> patch level 3
-(IEEEtran.cls
+
+("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ieeetran\IEEEtran.
+cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -522,30 +524,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-12.
-("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{C:/Users/tomti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-<fig1.png, id=12, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 217.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-28.
-
-("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
-[2]
+("Predicting the stock market 10 days at a time.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -557,34 +536,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./fig1.png (PNG copy)>] ("Predicting the stock market 10 days at a time.aux
-") ) 
+[1{C:/Users/tomti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+("Predicting the stock market 10 days at a time.aux") ) 
 Here is how much of TeX's memory you used:
- 4820 strings out of 492450
- 70321 string characters out of 3120004
- 145115 words of memory out of 3000000
- 9095 multiletter control sequences out of 15000+200000
- 54745 words of font info for 115 fonts, out of 3000000 for 9000
+ 4735 strings out of 492450
+ 69560 string characters out of 3120004
+ 141047 words of memory out of 3000000
+ 9026 multiletter control sequences out of 15000+200000
+ 43893 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,37p,620b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
-nc}<C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tomti/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tomti/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tomti/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
-Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pf
-b><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8
-a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
-tmbi8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on "Predicting the stock market 10 days at a time.pdf" (3 pages,
- 135030 bytes).
+ 55i,11n,37p,1220b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/tomti/AppData/
+Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/tomti/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tomti/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tomti/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/to
+mti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Predicting the stock market 10 days at a time.pdf" (1 page, 
+56324 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
