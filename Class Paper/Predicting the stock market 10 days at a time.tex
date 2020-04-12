@@ -27,11 +27,11 @@ email address or ORCID}
 \textit{Oakland University}\\
 Auburn Hills, USA \\
 ttisdall@oakland.edu}
-
-
 }
 
 \maketitle
+
+%Abstract info -- Provide a concise summary of the research conducted. Include the conclusions reached and the potential implications of those conclusions.
 
 \begin{abstract}
 Predicting the stock market is a very challenging task, with hundreds if not thousands of papers addressing this problem.  This paper sets out to explore predictingstock quarterly trends by determining the best quarterly features to use and then leveraging them to determine the direction of the upcoming quarterly report. The thought was to eventually marry this will daily trends to improve accuracy of predicting stock market pricess by factoring in the quarterly direction.  By determining the stocks that will go up or down for a quarter, we will predict whether buying or selling is the best course of action for a stock. Testing for accuracy, we will simuilate buying and selling in the stock market based on our predictions to determine if this project was a succsess or failure.  
@@ -43,11 +43,35 @@ Predicting the stock market is a very challenging task, with hundreds if not tho
 Index Terms - Stock Market, Prediction, Machine Learning
 \end{IEEEkeywords}
 
+
+%Help the reader understand why your research is important and what it is contributing to the field
+%Start by giving the reader a brief overview of the current state of research in your subject area.
+%Progress to more detailed information on the specific topic of your research.
+%End with a description of the exact question or hypothesis that your paper will address.
+
 \section{Introduction}
-Determining the direction of a stock from day to day is both a challenging and frustrating problem.  There are so many features to choose from and that factor into a stock changing price from day to day. It can be as simple as positive or negative news, changes in the overall market or industry, technological breakthroughs, production hurdles and many more, which don't even cover the technical or quantative numbers that typically are used to determine a stock rating and predicting its movement from day to day.  This paper is goign to attempt a different tact on predicting stocks, at a more generic and higher level, using the companies quarterly returns.  The thought is this information can be added to other predictors to better refine the accuracy of those models.  In this project we have gathered twenty five Technology, Software and IT Services large and mega cap stocks with earnings history for their entire existence, typically between ten and thirty years.  We started with the features used in the paper Stock Market Trends Prediction after Earning Release  \cite{QuarterlyPrediction}.  We reviewed and refined those quarterly features by using Mutual Info Regression over the datasets that we obtained.
+Determining the direction of a stock from day to day is both a challenging and frustrating problem.  There are so many features to choose from and that factor into a stock changing price from day to day. It can be as simple as positive or negative news, changes in the overall market or industry, technological breakthroughs, production hurdles and many more, which don't even cover the technical or quantative numbers that typically are used to determine a stock rating and predicting its movement from day to day.  This paper is goign to attempt a different tact on predicting stocks, at a more generic and higher level, using the companies quarterly returns.  The thought is this information can be added to other predictors to better refine the accuracy of those models.  In this project we have gathered twenty five Technology, Software and IT Services large and mega cap stocks with earnings history for their entire existence, typically between ten and thirty years.  We started with the features used in the paper Stock Market Trends Prediction after Earning Release  \cite{QuarterlyPrediction}.  We reviewed and refined those quarterly features by using Mutual Info Regression over the datasets that we obtained, which provided us with the most important columns to leverage in our machine learnging algorithm.  We decided to implement Support Vector Machine (SVM) to help us determine what stocks to buy or sell each quarter.  Using our model, we then started with a set amount and bought/sold as recommended to see how we faired in the long run.
 
 
 \section{Review of existing techniques for predicting the stock market}
+For this project, we started by reviewing papers that were published in the realm of stock market analysis via machine learning.  One of the first papers we found \cite{TaxonomyofPrediction} discusses how stock market analysis falls into four categories, statistical, pattern recognition, machine learning, and sentiment analysis.  Since this paper focuses on machine learning, we
+
+%Method
+%A detailed description of the question.
+%The methods you used to address the question.
+%The definitions of any relevant terminology.
+%Any equations that contributed to your work.
+
+\section{Formulation of our solution}
+
+\section{Applicable mathmatical theory}
+
+%Results
+%Show the results that you achieved in your work and offer an interpretation of those results. Acknowledge any limitations of your work and avoid exaggerating the importance of the results.
+\section{Experimental Results}
+
+%Summarizes your key findings. Include important conclusions that can be drawn and further implications for the field. Discuss benefits or shortcomings of your work and suggest future areas for research.
+\section{Summary and Conclusion}
 
 
 Citations
