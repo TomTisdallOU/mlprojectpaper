@@ -25,10 +25,10 @@
 C.~Qian, W.~Zheng, and R.~An, ``Stock market trends prediction after earning
   release,'' \emph{WebSite(Stanford)}, 2016.
 
-\bibitem{DailyReturnDirection}
-X.~Zhong and D.~Enke, ``Predicting the daily return direction of the stock
-  market using hybrid machine learning algorithms.'' \emph{Financ Innov 5, 24},
-  2019.
+\bibitem{TaxonomyofPrediction}
+I.~Shah and Zulkernine, ``Stock market analysis: A review and taxonomy of
+  prediction techniques,'' \emph{International Journal of Financial Studies
+  7.2}, 2019.
 
 \bibitem{Onedayahead}
 B.~Weng, M.~Ahmed, and F.~Megahed, ``Stock market one-day ahead movement
@@ -37,11 +37,6 @@ B.~Weng, M.~Ahmed, and F.~Megahed, ``Stock market one-day ahead movement
 \bibitem{AutomatedPrediction}
 M.~Moukalled, W.~El-Hajj, and M.~Jaber, ``Automated stock price prediction
   using machine learning,'' \emph{WebSite}, 2019.
-
-\bibitem{TaxonomyofPrediction}
-I.~Shah and Zulkernine, ``Stock market analysis: A review and taxonomy of
-  prediction techniques,'' \emph{International Journal of Financial Studies
-  7.2}, 2019.
 
 \bibitem{MLModelPrediction}
 O.~Hegazy, S.~Omar~S., and M.~Abdul~Salam, ``A machine learning model for stock
@@ -57,6 +52,11 @@ L.~DongDong, S.~Yuan, M.~Li, and Y.~Xiang, ``An empirical study of machine
 C.~Stoean, W.~Paja, R.~Stoean, and A.~Sandita, ``Deep architectures for
   long-term stock price prediction with a heuristic-based strategy for trading
   simulations,'' \emph{PlosOne}, 2019.
+
+\bibitem{DailyReturnDirection}
+X.~Zhong and D.~Enke, ``Predicting the daily return direction of the stock
+  market using hybrid machine learning algorithms.'' \emph{Financ Innov 5, 24},
+  2019.
 
 \bibitem{WebBecomeMillionaire}
 J.~Xu, ``How to use machine learning to become a millionaire predicting the
