@@ -71,14 +71,13 @@ Predicting the daily return direction of the stock market using hybrid machine l
 %Any equations that contributed to your work.
 In our work we chose to focus on predicting quarterly results, whether the stock would go up or down and by what percent in the next quarter.  For our first step, we gathered quartely data from a site called StockPup.com, which is now defunct. Fortunately we gathered our data before they shut down so we were able to perform our testing with the twenty eight stocks. We chose S\&P 500 large and mega stocks from the technology sector and software \& IT services industry.  The data included fourty one columns to use for predicting.  Before we could use a formula to select the best columns, we had to normalize and clean the data. 
 %Cory what steps were used to normalize? Should also talk to newly constructed columns -- for example change over time columns and the window they used.   Talk about generating the class
-Once the data was properly cleaned and normalized rather than using all of the features to predict we chose to implement several feature selection algorithms to test with.  This idea came from the paper Predicting the daily return direction of the stock market using hybrid machine learning algorithms \cite{DailyReturnDirection} which found that minimizing the feature set improved the prediction accuracy.  We decided to start by using the Python Library Sklearn with function SelectKBest.  This function provides the abiltiy to choose various algorithms such as f Classification, Mutual Info Classification, Select Percentile and others.  Each of these algoritihms return the top selected features to be used in our model.  After selecting our features we implemented a Support Vector Machine to model and predict our results.  We built our test and train sets of data by selecting a year and quarter to divide the data.  All data prior to the year and quarter chosen was used to train the model. The data from the chosen year and quarter was used to test the accuracy of our model.  We did this rather than splitting the data 80/20 as other processes recommend because we wanted to simulate a real world process.  In the real world we would be predicting the next quarter's price based on the prior quarters.  
+Once the data was properly cleaned and normalized rather than using all of the features to predict we chose to implement several feature selection algorithms to test with.  This idea came from the paper Predicting the daily return direction of the stock market using hybrid machine learning algorithms \cite{DailyReturnDirection} which found that minimizing the feature set improved the prediction accuracy.  We decided to start by using the Python Library Sklearn with function SelectKBest.  This function provides the abiltiy to choose various algorithms such as f Classification, Mutual Info Classification, Select Percentile and others.  Each of these algoritihms return the top selected features to be used in our model. 
 
-After building our model and testing the accuracy, we wanted to prove that our model would be profitable in the real world.  So we started with \$10,000 
+The next step was to classify the data for our model. We implemented a classification category over the average price gain of a stock over several quarters.  The thought was to classifiy the stocks in groups such as those that gained in 1 to 2 percent in a quarter, those that were 2 to 4 percent gains etc. This helped us in a couple of different areas.  First it allowed us to build regression into our calculations by looking at the prior quarters to improve our modeling.  Second we used it in the real world scenario of stock purchasing to decide how risky the stock is. This way we could in the final real world test purchase more of the stocks expected to go up with a bigger gain than the stocks with a minimal gain.  To keep things balanced we opted to always buy some of the positive stocks, trying to eliminate some of the volatility that can come with the higher risk stocks.
 
+After selecting our features we implemented a Support Vector Machine to model and predict our results.  We built our test and train sets of data by selecting a year and quarter to divide the data.  All data prior to the year and quarter chosen was used to train the model. The data from the chosen year and quarter was used to test the accuracy of our model.  We did this rather than splitting the data 80/20 as other processes recommend because we wanted to simulate a real world process.  In the real world we would be predicting the next quarter's price based on the prior quarters.  
 
-
-
-
+After building our model and testing the accuracy, we wanted to prove that our model would be profitable in the real world.  So we started by randomly selecting five stocks to remove from the testing phase and spending \$10,000 to purchase \$2,000 of each stock.  We applied the left over to the cheapest stock to use as much of the \$10,000 as possible. Then we ran our predictions for each quarter to determine if we should buy or sell stock.  To simplify the calculations we rebalanced each quarter, that is sold all of the stock and bought what was recommended by our prediction model.  To validate our project we then compared our process with a buy and hold strategy, which we implemented by purchasing \$2,000 of each stock.
 
 \section{Applicable mathmatical theory}
 
@@ -86,8 +85,21 @@ After building our model and testing the accuracy, we wanted to prove that our m
 %Show the results that you achieved in your work and offer an interpretation of those results. Acknowledge any limitations of your work and avoid exaggerating the importance of the results.
 \section{Experimental Results}
 
+
+
 %Summarizes your key findings. Include important conclusions that can be drawn and further implications for the field. Discuss benefits or shortcomings of your work and suggest future areas for research.
 \section{Summary and Conclusion}
+
+What we learned
+--Lot's of features, hard to chose the ones that make a difference
+--Outside influences still impact the stock --IE postiive/negative market news, positive/negative industry news, positive/negative company news (for example CEO steps down or is fired etc)
+--Importance of feature selection and normalizing the data to compare multiple data sets.
+
+
+What we could have done better, future improvements
+--More data - not enough over time
+--looping through the various tests to see how they average out
+--
 
 
 Citations
