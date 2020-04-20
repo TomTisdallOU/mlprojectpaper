@@ -10,6 +10,9 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
+
+
+
 \title{Predicting the Stock Market One Quarter at a Time\\
 {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
 should not be used}
@@ -79,13 +82,27 @@ After selecting our features we implemented a Support Vector Machine to model an
 
 After building our model and testing the accuracy, we wanted to prove that our model would be profitable in the real world.  So we started by randomly selecting five stocks to remove from the testing phase and spending \$10,000 to purchase \$2,000 of each stock.  We applied the left over to the cheapest stock to use as much of the \$10,000 as possible. Then we ran our predictions for each quarter to determine if we should buy or sell stock.  To simplify the calculations we rebalanced each quarter, that is sold all of the stock and bought what was recommended by our prediction model.  To validate our project we then compared our process with a buy and hold strategy, which we implemented by purchasing \$2,000 of each stock.
 
-\section{Applicable mathmatical theory}
 
-%Results
-%Show the results that you achieved in your work and offer an interpretation of those results. Acknowledge any limitations of your work and avoid exaggerating the importance of the results.
 \section{Experimental Results}
+Our first step, once we normalized the data was to create a Class that we could use as our target feature.  The class was built as a percent of price change calculated over the prior 3 quarters (we selected 3, but could have used any range). The Class was numbered -1 to 5 based on the percent change from the last few quarters to determine how it was trending.  In our expermiment we wanted to purchase stocks that we predicted had a higher gain likelyhood over those of a lower expected gain.  To do this we broke down the class by percents, 1-2 percent gain would be labeled a 1, 2-3 would be a 2 and so on. This became our target for the feature selection.
+In our experiments we felt the most important step would be to properly select the features to include in our model. We tested with several SelectKBest algorithms as you can see in the following images. After several rounds of testing we found that selecting the top 10 features seemed to provide the most consistent and highest accuracy.  We didn't see as much of a change between selecting the proper features that we expected which we attribute to a small data set and many of the columns being directly related to each other.  
+
+Testing with Chi-squared stats of non-negative features (Chi2) \ref{chi2} which we found that it produced an 86\% accuracy.  There were several others that also produced an accuracy of 86\% includeding Mutual Info Regression and F Classification. We saw 87\% with F Classifier (ANOVA F-value), 88\% with Extra Trees Classifier. Our highest accuracy based on feature selection was found when we used Mutual Info Classification \ref{mi}.
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Top10Chi2.png}
+  \caption{Top 10 Chi2 - 86\% Accuracy}
+  \label{chi2}
+\end{figure}
 
 
+\begin{figure}
+  \includegraphics[width=\linewidth]{Top10MutualInfoClassification.png}
+  \caption{Top 10 Mutual Info Classification 89\% Accuracy}
+  \label{mi}
+\end{figure}
+
+Once we completed the target classification and feature selection, we selected to run the experiment with training data from the beginning of each stock through the last quarter of 2016. The test data was selected as 2017 and forward. In our experiment we found the best accuracy with the Mutual Info Classification selecting its top 10 features, completing at an 89\% accuracy rating.  We feel this is much higher than it should be, our thoughts are the limited data set along with an industry that has been growing well over the last several years, is skewing the results to a higher accuracy Interestingly enough, when we selected 5 stocks (EBAY, FB, IBM, NFLX and MA)  to run our cash analysis with the results were less than spectacular.  In fact we found the buy and hold strategy would produce \$17,421.40 where our best strategy using Extra Trees Classifier at 89\% accuracy would only achieve around \$15,400, around \$2,000 less!
 
 %Summarizes your key findings. Include important conclusions that can be drawn and further implications for the field. Discuss benefits or shortcomings of your work and suggest future areas for research.
 \section{Summary and Conclusion}
