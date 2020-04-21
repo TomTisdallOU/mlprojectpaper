@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  19 APR 2020 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.25)  20 APR 2020 20:45
 entering extended mode
 **"./Predicting the stock market 10 days at a time.tex"
 ("Predicting the stock market 10 days at a time.tex"
@@ -530,24 +530,31 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 35.
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [2]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-3.
+0.
 
 ("C:\Users\tomti\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [2]
+)
 <Top10Chi2.png, id=12, 475.7775pt x 353.82187pt>
 File: Top10Chi2.png Graphic file (type png)
 <use Top10Chi2.png>
-Package pdftex.def Info: Top10Chi2.png  used on input line 93.
+Package pdftex.def Info: Top10Chi2.png  used on input line 89.
 (pdftex.def)             Requested size: 252.0pt x 187.40591pt.
 <Top10MutualInfoClassification.png, id=14, 556.32843pt x 359.09157pt>
 File: Top10MutualInfoClassification.png Graphic file (type png)
 <use Top10MutualInfoClassification.png>
 Package pdftex.def Info: Top10MutualInfoClassification.png  used on input line 
-100.
+96.
 (pdftex.def)             Requested size: 252.0pt x 162.65817pt.
- [3 <./Top10Chi2.png> <./Top10MutualInfoClassification.png>]
+[3 <./Top10Chi2.png> <./Top10MutualInfoClassification.png>]
+<FinalResultstop3of4slots.png, id=20, 1594.95876pt x 715.17188pt>
+File: FinalResultstop3of4slots.png Graphic file (type png)
+<use FinalResultstop3of4slots.png>
+Package pdftex.def Info: FinalResultstop3of4slots.png  used on input line 108.
+(pdftex.def)             Requested size: 252.0pt x 112.98936pt.
+
 ("Predicting the stock market 10 days at a time.bbl")
 
 ** Conference Paper **
@@ -560,29 +567,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] ("Predicting the stock market 10 days at a time.aux") ) 
+[4 <./FinalResultstop3of4slots.png>]
+("Predicting the stock market 10 days at a time.aux") ) 
 Here is how much of TeX's memory you used:
- 4788 strings out of 492450
- 70507 string characters out of 3120004
- 142091 words of memory out of 3000000
- 9072 multiletter control sequences out of 15000+200000
- 45261 words of font info for 100 fonts, out of 3000000 for 9000
+ 4790 strings out of 492450
+ 70648 string characters out of 3120004
+ 143099 words of memory out of 3000000
+ 9073 multiletter control sequences out of 15000+200000
+ 44207 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,37p,2527b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/tomti/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/tomti/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/t
-omti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Use
-rs/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C
-:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Users/tomti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri
-8a.pfb>
+{C:/Users/tomti/AppData/
+Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/tomti/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tomti/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tomti/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/to
+mti/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "Predicting the stock market 10 days at a time.pdf" (4 pages,
- 133271 bytes).
+ 907457 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
